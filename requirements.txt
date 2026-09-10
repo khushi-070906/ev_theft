@@ -1,0 +1,9 @@
+picamera2
+paho-mqtt
+spidev
+RPi.GPIO
+requests
+opencv-python-headless
+onnxruntime
+pytesseract
+Flask
