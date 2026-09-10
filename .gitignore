@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Generated recordings / videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+recordings/
+videos/
+
+# Images / detection outputs
+*.jpg
+*.jpeg
+*.png
+*.webp
+captures/
+snapshots/
+outputs/
+
+# ML / OCR temporary files
+models/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Data / incident storage
+data/
+incidents/
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
